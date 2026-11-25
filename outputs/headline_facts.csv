@@ -1,0 +1,27 @@
+Fact,Value
+Champions | High CLV share of customers (%),13.35488261313372
+Champions | High CLV share of historical revenue (%),61.173008188620386
+Champions | High CLV share of predicted CLV (%),63.70538296714996
+Champions | High CLV median ProbabilityAlive,0.9896899438962948
+Champions | High CLV median invoices,15.0
+Champions | High CLV median RecencyDays,10.0
+All Champions customers,1292
+All Champions share of historical revenue (%),68.18624220621894
+At-risk loyal with High/Mid-high CLV: customers,80
+At-risk loyal with High/Mid-high CLV: predicted CLV,253530.30701425957
+At-risk loyal with High/Mid-high CLV: median ProbabilityAlive,0.7840567289066908
+Single-purchase customers share of customers (%),27.611432460020414
+Single-purchase customers historical revenue,568173.832
+Peak revenue month,2010-11
+Peak month revenue,1172336.04
+Top customer by revenue: Customer ID,18102
+Top customer revenue,608821.65
+Top 10 customers share of revenue (%),15.93
+Predicted CLV total / historical revenue (%),96.39882180071187
+Holdout predicted / actual repeat purchases (ALL),21368 / 14127
+Holdout aggregate over-prediction (%),51.257
+Holdout over-prediction for 10+ group (%),17.939
+Holdout over-prediction for 0 group (%),126.594
+"Holdout corr(predicted, actual)",0.799
+"Pearson corr(frequency, AOV)",0.032
+"Spearman corr(frequency, AOV)",0.186

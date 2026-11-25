@@ -1,0 +1,21 @@
+Metric,Value,Methodology
+Raw rows,1067371,All rows across both workbook sheets before cleaning
+Usable transaction rows,805549,"Known customer, non-cancellation, positive quantity and positive price"
+Rows removed for missing Customer ID,243007,Customer ID is required for customer-level analytics
+Rows removed for cancellation invoices,18744,Invoice starts with C
+Rows removed for non-positive quantity/price,71,Quantity > 0 and Price > 0
+Exact duplicates detected and retained,26124,Retained; no deduplication assumption imposed
+Usable customers,5878,Distinct Customer ID in cleaned transaction table
+Usable invoices,36969,Distinct completed invoice ID in cleaned transaction table
+Historical revenue,17743429.178000003,Sum of Quantity x Price after cleaning
+RFM snapshot date,2011-12-09,Max cleaned InvoiceDate normalized to day
+BG/NBD modeled customers,5878,All usable customers
+Gamma-Gamma modeled customers,4255,Frequency > 0 and positive average order value
+CLV horizon weeks,26,Modeling assumption
+CLV discount rate per week,0.01,Modeling assumption passed to lifetimes
+Predicted 26-week CLV total,17104456.674635816,Sum of customer-level CLV where Gamma-Gamma conditions hold
+Mean 26-week CLV among modeled customers,4019.848807199957,Mean over non-null customer-level CLV
+Median 26-week CLV among modeled customers,1511.3575886667395,Median over non-null customer-level CLV
+Average month+1 retention,0.21165569861376554,Mean across cohorts with a month+1 observation
+Average month+3 retention,0.21615813038439843,Mean across cohorts with a month+3 observation
+Average month+6 retention,0.17821329990655507,Mean across cohorts with a month+6 observation

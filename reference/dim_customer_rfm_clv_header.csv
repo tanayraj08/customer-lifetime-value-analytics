@@ -1,0 +1,1 @@
+Customer ID,LastPurchaseDate,FirstPurchaseDate,Frequency,Monetary,RecencyDays,CustomerLifetimeDays,AverageOrderValue,CohortMonth,LastPurchaseMonth,R_Score,F_Score,M_Score,RFM_Score,RFM_Total,frequency,recency,T,PredictedPurchases_26w,ProbabilityAlive,ExpectedAverageValue,PredictedCLV_26w,CLV_ModelStatus,CLV_Segment,RFM_Segment,CustomerSegment

@@ -1,0 +1,23 @@
+rfm_segment,clv_segment,customers,historical_revenue,predicted_clv_26w,share_of_revenue_pct
+Champions,High CLV,785,10854189.38,10896459.63,61.17
+Core customers,High CLV,235,1245904.97,1661737.51,7.02
+Champions,Mid-high CLV,438,1140274.38,1120951.22,6.43
+Core customers,Mid-high CLV,488,922182.37,1112255.57,5.2
+Core customers,Mid-low CLV,609,589384.23,617433.29,3.32
+New / promising,High CLV,33,213665.6,520301.98,1.2
+At-risk loyal,Mid-low CLV,254,414796.16,227130.96,2.34
+At-risk loyal,Mid-high CLV,70,238790.69,153693.31,1.35
+New / promising,Mid-high CLV,57,40245.61,139273.84,0.23
+At-risk loyal,Low CLV,490,789748.79,130570.43,4.45
+At-risk loyal,High CLV,10,190958.86,99836.99,1.08
+Champions,Mid-low CLV,69,104113.83,90123.71,0.59
+Core customers,Low CLV,216,90041.87,86056.58,0.51
+Hibernating,Low CLV,320,160239.96,82731.06,0.9
+New / promising,Mid-low CLV,76,44165.22,71737.08,0.25
+Hibernating,Mid-low CLV,55,64448.76,43845.78,0.36
+Hibernating,Mid-high CLV,11,46916.07,23858.05,0.26
+New / promising,Low CLV,38,15324.32,17051.58,0.09
+Hibernating,High CLV,1,9864.26,9408.09,0.06
+Core customers,Single-purchase / CLV not modeled,246,100003.77,0.0,0.56
+Hibernating,Single-purchase / CLV not modeled,1140,387177.65,0.0,2.18
+New / promising,Single-purchase / CLV not modeled,237,80992.41,0.0,0.46

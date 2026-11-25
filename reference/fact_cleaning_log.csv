@@ -1,0 +1,8 @@
+step,rows_before,rows_after,rows_removed,rule
+raw_rows,1067371,1067371,0,Two workbook sheets concatenated
+type_coercion,1067371,1067371,0,Parsed dates/numerics; trimmed text
+valid_invoice_date,1067371,1067371,0,Removed unparseable InvoiceDate
+known_customer,1067371,824364,243007,Removed rows without Customer ID
+exclude_cancellations,824364,805620,18744,Removed invoices with Invoice beginning C
+positive_sales,805620,805549,71,Kept Quantity > 0 and Price > 0
+duplicate_handling,805549,805549,0,Exact duplicates detected=26124; retained to avoid deleting potentially valid repeated line items

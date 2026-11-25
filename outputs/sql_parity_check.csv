@@ -1,0 +1,16 @@
+check,result,detail
+customer count,PASS,"pandas 5878, sql 5878"
+RecencyDays equal,PASS,0 customers differ
+Frequency equal,PASS,0 customers differ
+R_Score equal,PASS,0 customers differ
+F_Score equal,PASS,0 customers differ
+M_Score equal,PASS,0 customers differ
+Monetary equal (2dp),PASS,max abs diff 0.0000
+RFM_Segment equal,PASS,0 customers differ
+(info) plain NTILE(5) vs pandas R_Score,INFO,3 customers would differ if NTILE(5) were used
+(info) plain NTILE(5) vs pandas F_Score,INFO,3 customers would differ if NTILE(5) were used
+(info) plain NTILE(5) vs pandas M_Score,INFO,3 customers would differ if NTILE(5) were used
+segment counts equal,PASS,At-risk loyal=824; Champions=1292; Core customers=1794; Hibernating=1527; New / promising=441
+cohort retention equal,PASS,"325 cohort-month rows, max retention diff 9.71e-17"
+avg retention m+1/m+3/m+6 equal,PASS,"m+1: 21.1656%, m+3: 21.6158%, m+6: 17.8213%"
+combined segment summary equal,PASS,22 segment rows

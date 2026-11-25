@@ -1,0 +1,23 @@
+Check,Value
+BG/NBD r,0.6130830402058234
+BG/NBD alpha,6.911461899541706
+BG/NBD a,0.0972207078943579
+BG/NBD b,1.3346098181707031
+Gamma-Gamma p,12.47598203499337
+Gamma-Gamma q,0.9408641302327028
+Gamma-Gamma v,12.309264835027305
+Calibration split date,2010-12-05
+Holdout weeks,52.71
+Calibration-fit BG/NBD r,0.775279
+Calibration-fit BG/NBD alpha,7.526069
+Calibration-fit BG/NBD a,0.024433
+Calibration-fit BG/NBD b,0.848904
+Calibration customers where lifetimes returned NaN (recomputed),1429
+Holdout total actual repeat purchases,14127.0
+Holdout total predicted repeat purchases,21368.0
+Holdout aggregate error pct,51.26
+Holdout customer-level MAE,2.938
+"Holdout corr(predicted, actual)",0.799
+Repeat customers for independence check,4255
+"Pearson corr(frequency, AOV)",0.032
+"Spearman corr(frequency, AOV)",0.186

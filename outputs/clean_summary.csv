@@ -1,0 +1,10 @@
+Metric,Value
+Raw rows,1067371
+Usable transaction rows,805549
+Usable customers,5878
+Usable invoices,36969
+Exact duplicates detected and retained,26124
+Historical revenue,17743429.178000003
+Min InvoiceDate,2009-12-01 07:45:00
+Max InvoiceDate,2011-12-09 12:50:00
+RFM snapshot date,2011-12-09

@@ -1,0 +1,9 @@
+Check,Value
+"Project metric PredictedCLV_26w: time=26, freq='W' (lifetimes horizon = 26 x 4.345 weeks)",17104456.674635734
+"Same model, time=6 (~26.1 weeks) total CLV",4511808.402155222
+"Same model, time=6: mean / median CLV",1060.35 / 398.87
+"Same model, time=6: Champions | High CLV customers",782
+"Same model, time=6: Champions | High CLV predicted CLV",2859728.9439200773
+"Same model, time=6: customers whose CLV quartile changes",38
+Spearman rank corr between time=26 and time=6 CLV,0.99993
+Repeat customers' historical revenue per 26 weeks (2009-12-01..2011-12-09),4235632.077197832
